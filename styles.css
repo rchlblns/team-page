@@ -1,0 +1,93 @@
+body {
+    background-color: #F4F3F1;
+    font-family: "Nunito", sans-serif;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 1200px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+}
+
+.page-title {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.emphasis {
+    font-weight: 600;
+}
+
+.department-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+#sales .name, #sales hr {
+    color: #9E4770;
+}
+
+#service .name, #service hr {
+    color: #456E21;
+}
+
+#parts .name, #parts hr {
+    color: #3B5C91;
+}
+
+#finance .name, #finance hr {
+    color: #B83700;
+}
+
+.cards {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.card {
+    width: 150px;
+    margin: 0 1rem;
+    text-align: left;
+}
+
+.card-img {
+    border: 4px solid #FFF;
+    width: 150px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5rem;
+    width: 10%;
+    text-align: left;
+    border: 1px solid;
+}
+
+@media (max-width: 766px) {
+    main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
