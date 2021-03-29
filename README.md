@@ -1,4 +1,4 @@
-# Simple Navigation Menu
+# Team Page
 [View the finished project here!](https://github.com/rchlblns/team-page)
 
 ## The Task
