@@ -1,5 +1,5 @@
 # Team Page
-[View the finished project here!](https://github.com/rchlblns/team-page)
+[View the finished project here!](https://rchlblns.github.io/team-page/staff_page.html)
 
 ## The Task
  The instructions for this challenge were to create a staff list page using HTML & CSS (without using CSS frameworks).
